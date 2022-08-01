@@ -1,0 +1,45 @@
+
+class CBarrios{
+    /*
+        Clase para probar condicionales, structs, ciclos y metodos
+    */
+    void main(){
+        int first;
+        int count;
+        int globalResult ;
+        char s2[10];
+        char s3[10];
+
+        boolean land;
+
+        // Declaracion de struct
+        struct st { int a; int b; };
+
+        first = 1 ;
+        s2 = "Hello" ;
+
+        if(first == 1){
+            count = 0 ;
+            while(count<=5){
+                f = mul2(count) ;
+                globalResult = globalResult + f ;   
+                count = count + 1 ;
+            }
+        }else{
+            s3 = concat(s2);
+        }
+
+    }
+
+    char concat(char a){
+        char result;
+        result = a == "a";
+        return result;
+    }
+
+    int mult(int n){
+        int result;
+        result = n * 2;
+        return result;
+    }
+}

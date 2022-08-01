@@ -1,0 +1,26 @@
+
+class CBarrios{
+    /* 
+        Clase para prueba con ciclo while y una funcion
+    */
+    void main(){
+        int a;
+        int b;
+        int c;
+        int globalResult;
+
+        // ciclo while
+        while(i<=5){
+            f = mul2(i) ;
+            globalResult = globalResult + f ;    
+        }
+    }
+
+    // funcion para multiplicar por 2
+    int mul2(int n){
+        int result;
+        result = n * 2;
+        return result;
+    }
+
+}

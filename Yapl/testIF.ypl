@@ -1,0 +1,39 @@
+
+class CBarrios{
+    /* 
+        Clase para prueba de condicionales 
+    */
+    void main(){
+        int a;
+        int b;
+        int c;
+        int aa;
+        int bb;
+
+        int arrint[10];
+
+        boolean boo;
+
+        char type[5];
+        char type2[5];
+
+        type = 'a';
+        type2 = "Aa";
+
+        boo = true;
+
+        a = 1;
+        b = 3;
+
+        // Condicionales
+        if (a == 1 && boo == true){
+            aa = 100;
+            c = aa + b;
+        }else{
+            bb = 100;
+            c = a + bb;
+        }
+
+    }
+
+}
